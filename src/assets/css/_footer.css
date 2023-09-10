@@ -1,0 +1,36 @@
+.footer {
+    position: relative;
+}
+
+.footer__logo img {
+    position: absolute;
+}
+
+.footer {
+    background-color: #2d314d;
+    color: white;
+    padding: 2.5rem 2.5rem 2rem 2.5rem;
+    position: relative;
+}
+
+.footer-flex {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    /*align-items: stretch;*/
+}
+
+.footer-flex p {
+    margin: 1rem 0 0 1rem;
+    color: #126FB8;
+    font-size: 0.7rem;
+}
+
+.footer__logo {
+    align-self: self-start;
+    margin-left: 14rem;
+}
+
+.footer-flex .header__links {
+    margin-left: 3rem;
+}

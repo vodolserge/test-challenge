@@ -1,0 +1,19 @@
+@media (max-width: 860px) {
+    .hide-for-mobile {
+        display: none;
+    }
+}
+
+@media (min-width: 860px) {
+    .hide-for-desktop {
+        display: none;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 960px) {
+    body, .container {
+        width: 65em;
+        margin: 0 auto;
+    }
+}
+
